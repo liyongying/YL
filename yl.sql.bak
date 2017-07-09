@@ -1,0 +1,13 @@
+SET NAMES UTF8;
+DROP DATABASE IF EXISTS yl;
+CREATE DATABASE yl CHARSET=UTF8;
+USE yl;
+CREATE TABLE yl_user(
+	uid INT PRIMARY KEY AUTO_INCREMENT,
+	uname VARCHAR(20),
+	upwd  VARCHAR(32)
+);
+INSERT INTO yl_user VALUES(null,"lilei","121121");
+INSERT INTO yl_user VALUES(null,"hanmei","123321");
+INSERT INTO yl_user VALUES(null,"lucy","123456");
+INSERT INTO yl_user VALUES(null,"xiaoming","654321");

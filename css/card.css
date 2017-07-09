@@ -1,0 +1,192 @@
+#mainpic{
+    margin-top: 16px;
+    padding:0 auto;
+}
+#main{
+    padding-right: 0;
+}
+#nav{
+    width:1260px;
+}
+
+#lr{
+    padding-left: 90px;
+    display: flex;
+}
+#r{
+    width:300px;
+    height:300px;
+    margin-left: 180px;
+}
+#r>p{
+    color:#555555;
+    font-size:15px;
+}
+#r>p>a{
+    color:#555555;
+    font-size:15px;
+}
+#r>div{
+    color:#EAE2EF;
+    width:200px;
+    height:34px;
+    background-color: #7CB4EF;
+    text-align: center;
+    line-height: 34px;
+    border-radius:2px;
+}
+#r>div>a{
+    color:#EAE2EF;
+    font-size: 20px;
+
+}
+#r>pre{
+    border-bottom: 1px solid #C8DAF0;
+}
+#r>pre>span>a{
+    font-size: 12px;
+    color:#3377EE !important;
+}
+#r>pre>b{
+    font-size: 6px;
+    color:#AF99B1;
+    font-weight: normal;
+    margin:0 2px;
+}
+#r>b{
+    color:#87ADDC;
+    padding-left: 40px;
+    line-height: 25px;
+    font-size: 15px;
+    margin:10px 0;
+}
+#r>#b1{
+   background: url(../images/cardtel.PNG) no-repeat 0px -4px;
+}
+#r>#b3{
+    background: url(../images/cardemail.PNG) no-repeat;
+    border-bottom: 1px solid #C8DAF0;
+    line-height: 45px;
+    padding-bottom: 12px;
+    padding-right: 80px;
+
+}
+#r>#p-1,#r>#p-2{
+    line-height: 30px;
+    border-bottom: 1px solid #C8DAF0;
+    padding-bottom: 8px;
+    box-sizing: border-box;
+}
+#l{
+    width:742px;
+}
+#lb{
+    height:228px;
+    width:743px;
+    border:1px solid #DEEBF8;
+    border-top:none;
+    margin-top: 5px;
+    padding: 0;
+}
+#l>#table1,#lb>#table3{
+  border-collapse: collapse;
+}
+
+#dzk,#flow{
+    width:180px;
+    height:50px;
+    border:1px solid #DEEBF8;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color:#95B1D7;
+    padding-top: 0;
+    box-sizing: border-box;
+    border-bottom:2px solid #fff;
+
+}
+#stk,#pro{
+    width:480px;
+    height:50px;
+    border:1px solid #DEEBF8;
+    font-size: 20px;
+    font-weight: bold;
+    color:#95B1D7;
+    padding-left: 80px;
+    padding-top: 0;
+
+}
+.active{
+    border-top:2px solid #5E99D2;
+    border-bottom:2px solid #fff;
+    height:52px;
+    color:#3366CC;
+    z-index: 100;
+    line-height: 48px;
+
+}
+#table2 #card1{
+    width:320px;
+    height:300px;
+    padding-left: 30px;
+    text-align: center;
+}
+#card1 p{
+    color:#9A9A9A;
+    font-size:15px ;
+}
+#card1 p>span{
+    color:#FE6700;
+    font-size:15px ;
+}
+#td1,#td2{
+    color:#333333;
+    font-weight: bold;
+    font-size: 10px;
+}
+#table2 b{
+    color:#9999B2;
+    font-size: 14px;
+    margin-right: 3px;
+}
+#table2 td{
+    width:388px;
+}
+
+#td3,#td4,#td5,#td6,#td8{
+    color:#FF6600;
+}
+#td3,#td4,#td5,#td6,#td7{
+    border-bottom: 1px dashed #DFDFDF;
+}
+#table2 input{
+    width:40px;
+    height:14px;
+}
+#special1{
+    width:75px !important;
+}
+#tb8 b{
+    color:#333333;
+}
+#td8 button{
+    width:120px;height:40px;
+    background-color:#FF8800;
+    color:#fff;
+    text-align: center;
+}
+#l{
+    border:1px solid #DEEBF8;
+}
+#td3 i,#td4 i,#td5 i,#td6 i{
+    margin-left: 220px;
+}
+#td7 i{
+    margin-left: 210px;
+}
+#td8 i{
+    margin-left: 180px;
+}
+hr{
+    color:#EEEEEE;
+}

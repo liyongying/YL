@@ -1,0 +1,201 @@
+
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="../css/points.css"/>
+    <link rel="stylesheet" href="../css/card.css"/>
+</head>
+<body>
+<div id="out">
+    <div id="head">
+        <p id="p1"><img src="../images/jfsclogo.PNG" alt=""/></p>
+        <P id="p2">
+            <span><a href="points.html">积分商城</a></span> <span>|</span>
+            <span><a href="card.html">礼品卡</a></span> <span>|</span>
+            <span><a href="services.html">帮助中心</a></span> <span>|</span>
+            <select name="" id="sel">
+                <option value="" selected>English</option>
+                <option value="">中文版本</option>
+            </select>
+        </P>
+        <p id="p3">
+            <span>手机版</span><br>
+            <span>专享五折起</span>
+        </p>
+        <p id="p4">
+            <span>7x24客服电话</span><br>
+            <span>4009-333-333</span>
+        <div id="ssj"></div>
+        </p>
+    </div>
+    <div id="main">
+        <div id="nav">
+            <a href="#">首页</a> <span>|</span>
+            <a href="#">国内酒店</a> <span>|</span>
+            <a href="#">国际酒店</a> <span>|</span>
+            <a href="#">短租公寓</a> <span>|</span>
+            <a href="#">机票</a> <span>|</span>
+            <a href="#">火车票</a> <span>|</span>
+            <a href="#">汽车票</a> <span>|</span>
+            <a href="#">用车</a> <span>|</span>
+            <a href="#">旅游指南</a> <span>|</span>
+            <div id="dz">
+                <a href="#">登录</a> <span>|</span>
+                <a href="#">注册</a>
+            </div>
+            <img id="sp1" src="../images/jfscs01.PNG" style="height:30px"/>
+            <img id="sp2" src="../images/jfscs02.PNG" style="height:30px"/>
+            <img id="sp3" src="../images/jfscs03.PNG" style="height:30px"/>
+            <img id="sp4" src="../images/jfscs04.PNG" style="height:30px"/>
+        </div>
+        <div id="mainpic">
+            <img src="../images/card01.PNG" width="100%"/>
+        </div>
+        <div id="lr">
+            <div>
+                <div id="l" >
+                    <table id="table1">
+                        <tr>
+                            <td id="dzk"><div class="active">电子卡</div></td>
+                            <td id="stk"><div>实体卡</div></td>
+                        </tr>
+                    </table>
+                    <table id="table2">
+                        <tr>
+                            <td id="card1" rowspan="8">
+                                <img src="../images/card02.PNG" alt=""/>
+                                <p>可购买<span>预付酒店、机票、火车票、团购</span>类产品</p>
+                                <p><span>礼品卡不支持购买五折产品</span></p>
+                            </td>
+                            <td id="td1">
+                                类型：
+                                <label><input type="radio" name="sel" checked/>通用礼品卡</label>
+                                <label><input type="radio" name="sel" />专用礼品卡</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td id="td2">请选择购买金额：</td>
+                        </tr>
+                        <tr>
+                            <td id="td3">
+                                <b>&yen;500</b>
+                                <i><button>-</button>
+                                <input type="text" placeholder="0"/>
+                                <button>+</button>
+                                </i>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td id="td4"><b>&yen;1000</b>
+                                <i>
+                                    <button>-</button>
+                                    <input type="text" placeholder="0"/>
+                                    <button>+</button>
+                                </i>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td id="td5"><b>&yen;2000</b>
+                                <i>
+                                    <button>-</button>
+                                    <input type="text" placeholder="0"/>
+                                    <button>+</button>
+                                </i>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td id="td6"><b>&yen;5000</b>
+                                <i>
+                                    <button>-</button>
+                                    <input type="text" placeholder="0"/>
+                                    <button>+</button>
+                                </i>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td id="td7"><b>&yen;</b><input id="special_1" type="text" min="0" placeholder="自定义金额"/>
+                                <i>
+                                    <button>-</button>
+                                    <input type="input" placeholder="0" id="special_2"/>
+                                    <button>+</button>
+                                </i>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td  id="td8"><b>合计：&yen;</b><u id="total">0</u><br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i><button type="submit">立即购买</button></i>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div id="lb">
+                    <table id="table3">
+                        <tr>
+                            <td id="flow"><div class="active">使用流程</div></td>
+                            <td id="pro"><div>常见问题</div></td>
+                        </tr>
+                    </table>
+                    <div>
+                        <p><img src="../images/card03.PNG" alt=""/></p>
+                        <p><img src="../images/card04.PNG" alt=""/></p>
+                    </div>
+                </div>
+            </div>
+            <div id="r">
+                <p><a href="#">已有礼品卡？</a></p>
+                <div><a href="#">去账户充值</a></div>
+                <pre>  <span><a href="#">查看礼品卡账户</a></span><b>|</b><span><a href="#">我的礼品卡订单</a></span>
+                </pre>
+                <p>联系我们</p>
+                <b id="b1">4009-333-333</b><br/>
+                <b>010-84570909-2838</b><br/>
+                <b id="b3">giftcard@corp.elong.com</b>
+                <p id="p-2">企业采购</p>
+                <p id="p-1">分销合作</p>
+            </div>
+        </div>
+    </div>
+    <hr/>
+    <div id="footer">
+        <div id="other1">
+            <div>
+                <h3>加盟合作</h3>
+                <ul>
+                    <li>酒店加盟</li>
+                    <li>开发平台</li>
+                    <li>代理合作</li>
+                    <li>广告服务</li>
+                    <li>商家中心</li>
+                </ul>
+            </div>
+            <div>
+                <h3>关于艺龙</h3>
+                <ul>
+                    <li>关于艺龙</li>
+                    <li>酒店大全</li>
+                    <li>国际酒店</li>
+                    <li>校园招聘</li>
+                    <li>联系我们</li>
+                </ul>
+            </div>
+            <div>
+                <h3>艺龙APP下载</h3>
+                <p><img src="../images/jfscapp1.PNG" alt=""/></p>
+            </div>
+            <div>
+                <h3>艺龙官方微信</h3>
+                <p><img src="../images/jfscapp2.PNG" alt=""/></p>
+            </div>
+        </div>
+        <div id="other2">
+            <span>&copy;1999-2017艺龙网信息技术(北京)有限公司,eLong,Inc or its affiliates.All Rights Reserved.京ICP证010011号京公网安备11010502026059号</span>
+            <p><img src="../images/jfscbottom.PNG" alt=""/></p>
+        </div>
+    </div>
+</div>
+<script src="../js/jquery-1.11.3.js"></script>
+<script src="../js/card.js"></script>
+</body>
+</html>

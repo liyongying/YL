@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>yilongwangzhan</title>
+    <link rel="stylesheet" href="../css/home.css"/>
+    <link rel="stylesheet" href="../css/animate.css"/>
+</head>
+<body>
+<div id="out">
+    <div id="head" class="inner">
+        <p id="p1" class="animated  bounce  infinite"><img src="../images/jfsclogo.PNG" alt=""/></p>
+
+        <P id="p2">
+            <span><a href="points.html">积分商城</a></span> <span>|</span>
+            <span><a href="card.html">礼品卡</a></span> <span>|</span>
+            <span><a href="services.html">帮助中心</a></span> <span>|</span>
+            <select name="" id="sel">
+                <option value="" selected>English</option>
+                <option value="">中文版本</option>
+            </select>
+        </P>
+        <p id="p3">
+            <span>手机版</span><br>
+            <span>专享五折起</span>
+        </p>
+
+        <p id="p4" class="animated  tada  infinite">
+            <span>7x24客服电话</span><br>4009-333-333
+        </p>
+    </div>
+    <div id="nav" class="">
+        <a href="home.html">首页</a> <span>|</span>
+        <a href="#">国内酒店</a> <span>|</span>
+        <a href="#">国际酒店</a> <span>|</span>
+        <a href="#">短租公寓</a> <span>|</span>
+        <a href="#">机票</a> <span>|</span>
+        <a href="#">火车票</a> <span>|</span>
+        <a href="#">汽车票</a> <span>|</span>
+        <a href="#">用车</a> <span>|</span>
+        <a href="#">旅游指南</a> <span>|</span>
+
+        <div id="dz">
+            <a href="login.html">登录</a> <span>|</span>
+            <a href="register.html">注册</a>
+        </div>
+
+    </div>
+    <div id="section" class="inner">
+        <div id="in_turn">
+            <img src="../images/hometurn001.jpg" alt="1"/>
+            <ul>
+                <li class="turnActive">1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+            </ul>
+            <div id="turnRight">
+                <ul id="list1">
+                    <li><a href="#hotel">酒店</a></li>
+                    <li><a href="#planeTickets">机票</a></li>
+                    <li><a href="#trainTickets">火车票</a></li>
+                    <li><a href="#phoneVersion">手机版</a></li>
+                    <li></li>
+                </ul>
+                <div id="list2">
+                    <div id="hotel" class="active">
+                        <span>国内酒店</span>
+                        <span>国际酒店</span>
+
+                        <form action="" id="form_hotel">
+                            <label for="input01">目的地</label><br/><input id="input01" type="text"
+                                                                        placeholder="北京市"/><br/>
+                            <br/><label for="input02">入住</label><br/><input id="input02" type="date"/>
+                            <br/><br/><label>退房</label><br/><input type="date"/>
+                            <br/><br/><label>关键词</label><br/><input type="search"/>
+                            <input type="button" value="搜索"/>
+                        </form>
+                    </div>
+                    <div id="planeTickets">
+                        <span>国内航班</span>
+                        <span>国际航班</span>
+
+                        <form action="" id="form_plane">
+                            <label for="input03">目的地</label><br/><input id="input03" type="text" placeholder="纽约"/><br/>
+                            <br/><label for="input04">起飞</label><br/><input id="input04" type="date"/>
+                            <br/><br/><label>返航</label><br/><input type="date"/>
+                            <br/><br/><label>关键词</label><br/><input type="search"/>
+                            <input type="button" value="搜索"/>
+                        </form>
+                    </div>
+                    <div id="trainTickets">
+                        <form action="">
+                            <p>往返城市<br/>
+                                <input type="adress" placeholder="北京" width="100"/><img src="../images/reverce.PNG" alt=""/>
+                                <input type="adress" placeholder="上海"/>
+                            </p><br/>
+
+                            <p>出发日期<br/>
+                                <input type="date"/>
+                                <label> <input type="checkbox"/>只看动车/高铁</label>
+                                <label> <input type="checkbox"/>只看有票</label><br/><br/>
+                                <input type="bntton" placeholder="搜索"/>
+                            </p>
+                        </form>
+                        <br/>
+                        <span>热门路线：</span><span>北京</span><b>→</b><span>西安</span>&nbsp;&nbsp;
+                        <span>上海</span><b>→</b><span>南京</span>&nbsp;&nbsp;<span>深圳</span><b>→</b><span>厦门</span>
+                    </div>
+                    <div id="phoneVersion">
+                        <img src="../images/ylewm.PNG" width="180" alt=""/>&nbsp;&nbsp;&nbsp;&nbsp;<img
+                            src="../images/ylsjt.PNG" width="180" alt=""/>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="worthIndex">
+            <h2>目的地指数&nbsp;<span>覆盖全球75万家酒店，你想住的，我们都有</span></h2>
+
+            <p style="margin: 10px 0">
+                <span id="inland">国内</span>&nbsp;
+                <a href="javascript:;" class="red_active a_active animated  wobble  infinite">登高踏青</a>
+                <a href="javascript:;">小憩温泉</a>
+                <a href="javascript:;">天然氧吧</a>
+                <a href="javascript:;">草原撒欢</a>
+                <a href="javascript:;">小镇时光</a>
+                <a href="javascript:;">美食之城</a>
+                <a href="javascript:;">更多&gt;&gt;</a>
+            </p>
+
+            <div id="one">
+                <dl>
+                    <dt>
+                        <img src="../images/home-hs.jpg" alt="" class="animated  flipInX"/>
+                    </dt>
+                    <b>黄山</b>
+                    <dd>春意撩人 登高踏春赏纯色</dd>
+                </dl>
+                <dl>
+                    <dt>
+                        <img src="../images/home-ems.jpg"/>
+                    </dt>
+                    <b>峨眉山</b>
+                    <dd class="animated  bounceIn  infinite">阳春三月 闻着茶香去峨眉</dd>
+                </dl>
+                <dl>
+                    <dt>
+                        <img src="../images/home-wts.jpg" alt=""/>
+                    </dt>
+                    <b>五台山</b>
+                    <dd>迎春 祈福 登五台</dd>
+                </dl>
+                <dl>
+                    <dt>
+                        <img src="../images/home-ls.jpg" alt=""/>
+                    </dt>
+                    <b>庐山</b>
+                    <dd>亲近自然 春游庐山</dd>
+                </dl>
+            </div>
+            <p style="margin: 10px 0">
+                <span id="abroad">海外</span>&nbsp;
+                <a href="javascript:;" class="red_active a_active animated  jello  infinite">文艺清新</a>
+                <a href="javascript:;">面朝大海</a>
+                <a href="javascript:;">别样建筑</a>
+                <a href="javascript:;">浪漫主义</a>
+                <a href="javascript:;">魅力都市</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="javascript:;" style="left:410px;">更多&gt;&gt;</a>
+            </p>
+
+            <div id="two">
+                <dl>
+                    <dt>
+                        <img src="../images/home_ld.jpg" alt=""/>
+                    </dt>
+                    <b>伦敦</b>
+                    <dd>风情英伦，帝国余韵</dd>
+                </dl>
+                <dl>
+                    <dt>
+                        <img src="../images/home_qm.jpg" alt=""/>
+                    </dt>
+                    <b>清迈</b>
+                    <dd>泰北玫瑰，慢行古城</dd>
+                </dl>
+                <dl>
+                    <dt>
+                        <img src="../images/home_jzd.jpg" alt=""/>
+                    </dt>
+                    <b>济州岛</b>
+                    <dd class="animated  fadeIn  infinite">最传统的浪漫，最神秘的自然</dd>
+                </dl>
+                <dl>
+                    <dt>
+                        <img src="../images/home_lm.jpg" alt=""/>
+                    </dt>
+                    <b>罗马</b>
+                    <dd>永恒之城，魅力无限</dd>
+                </dl>
+            </div>
+        </div>
+        <div id="cheap">
+            <h2 class="animated  flash  infinite">超值特价票</h2>
+
+            <p style="margin: 10px 0">
+                <span id="air_tickets">机票</span>&nbsp;
+                <a href="javascript:;" class="a_active">北京出发</a>
+                <a href="javascript:;">上海出发</a>
+                <a href="javascript:;">广州出发</a>
+                <a href="javascript:;">杭州出发</a>
+                <a href="javascript:;">深圳出发</a>
+                <a href="javascript:;">成都出发</a>
+                <a href="javascript:;">更多</a>
+            </p>
+            <table>
+                <tr>
+                    <td>
+                        <pre> 北京  <img src="../images/home_plane2.PNG" alt=""/> 武汉  </pre>
+                        <p><span>05月05日</span><b>1.7折</b><i>￥320</i></p>
+                    </td>
+                    <td>
+                        <pre> 北京  <img src="../images/home_plane2.PNG" alt=""/> 青岛  </pre>
+                        <p><span>05月02日</span><b>1.7折</b><i>￥230</i></p>
+                    </td>
+                    <td>
+                        <pre> 北京  <img src="../images/home_plane2.PNG" alt=""/> 太原  </pre>
+                        <p><span>04月30日</span><b>1.9折</b><i>￥200</i></p>
+                    </td>
+                    <td>
+                        <pre> 北京  <img src="../images/home_plane2.PNG" alt=""/> 南京  </pre>
+                        <p><span>04月30日</span><b>1.9折</b><i>￥370</i></p>
+                    </td>
+                    <td>
+                        <pre> 北京  <img src="../images/home_plane2.PNG" alt=""/> 西安  </pre>
+                        <p><span>04月16日</span><b>2.7折</b><i>￥330</i></p>
+                    </td>
+                    <td>
+                        <pre> 北京  <img src="../images/home_plane2.PNG" alt=""/> 昆明  </pre>
+                        <p><span>05月10日</span><b>1.8折</b><i>￥530</i></p>
+                    </td>
+                </tr>
+            </table>
+            <p style="margin: 10px 0">
+                <span id="tickets">火车票</span>
+                <a href="javascript:;" class="a_active">北京出发</a>
+                <a href="javascript:;">上海出发</a>
+                <a href="javascript:;">广州出发</a>
+                <a href="javascript:;">天津出发</a>
+                <a href="javascript:;">深圳出发</a>
+                <a href="javascript:;">厦门出发</a>
+                <a href="javascript:;">更多</a>
+            </p>
+            <table>
+                <tr>
+                    <td>
+                        <pre> 北京  <img src="../images/home_plane2.PNG" alt=""/> 上海  </pre>
+                        <p><span>05月05日</span>&nbsp;&nbsp;&nbsp;<i>￥320</i></p>
+                    </td>
+                    <td>
+                        <pre> 北京西 <img src="../images/home_plane2.PNG" alt=""/> 太原  </pre>
+                        <p><span>05月02日</span>&nbsp;&nbsp;&nbsp;<i>￥230</i></p>
+                    </td>
+                    <td>
+                        <pre> 北京西 <img src="../images/home_plane2.PNG" alt=""/> 西安  </pre>
+                        <p><span>04月30日</span>&nbsp;&nbsp;&nbsp;<i>￥200</i></p>
+                    </td>
+                    <td>
+                        <pre> 北京西 <img src="../images/home_plane2.PNG" alt=""/> 合肥  </pre>
+                        <p><span>04月30日</span>&nbsp;&nbsp;&nbsp;<i>￥370</i></p>
+                    </td>
+                    <td>
+                        <pre> 北京  <img src="../images/home_plane2.PNG" alt=""/> 杭州  </pre>
+                        <p><span>05月16日</span>&nbsp;&nbsp;&nbsp;<i>￥330</i></p>
+                    </td>
+                    <td>
+                        <pre> 北京西 <img src="../images/home_plane2.PNG" alt=""/> 郑州  </pre>
+                        <p><span>05月12日</span>&nbsp;&nbsp;&nbsp;<i>￥530</i></p>
+                    </td>
+                </tr>
+            </table>
+
+
+        </div>
+        <div id="guide">
+        </div>
+        <div id="bottom">
+            <div id="part1">
+                <ul>
+                    <li class="animated  slideInDown  infinite">全球75万家酒店</li>
+                    <li class="animated  jello  infinite">订酒店返现金高达20%</li>
+                    <li class="animated  flipInX  infinite">国际酒店8折起</li>
+                    <li class="animated  tada  infinite">7×24小时服务</li>
+                </ul>
+            </div>
+            <div id="part2">
+                <p>
+                    <span>亲，留下您的邮箱,会有惊喜呦～
+                        <input type="text" placeholder="请输入您的E-mail"/>
+                        <input type="submit" value="立即订阅"/>
+                            <a href="#">艺龙服务协议</a>
+                    </span>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div id="footer" class="inner">
+        <div id="other1">
+            <div>
+                <h3>加盟合作</h3>
+                <ul>
+                    <li><a href="#">酒店加盟</a></li>
+                    <li><a href="#">开发平台</a></li>
+                    <li><a href="#">代理合作</a></li>
+                    <li><a href="#">广告服务</a></li>
+                    <li><a href="#">商家中心</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>关于艺龙</h3>
+                <ul>
+                    <li><a href="#">关于艺龙</a></li>
+                    <li><a href="#">酒店大全</a></li>
+                    <li><a href="#">国际酒店</a></li>
+                    <li><a href="#">校园招聘</a></li>
+                    <li><a href="#">联系我们</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>艺龙APP下载</h3>
+
+                <p><img src="../images/jfscapp1.PNG" alt=""/></p>
+            </div>
+            <div>
+                <h3>艺龙官方微信</h3>
+
+                <p><img src="../images/jfscapp2.PNG" alt=""/></p>
+            </div>
+        </div>
+        <div id="other2">
+            <span>&copy;1999-2017艺龙网信息技术(北京)有限公司,eLong,Inc or its affiliates.All Rights Reserved.京ICP证010011号京公网安备11010502026059号<img
+                    src="../images/home_ls.PNG"></span>
+
+            <p><img src="../images/jfscbottom.PNG" alt=""/></p>
+        </div>
+    </div>
+</div>
+<script src="../js/jquery-1.11.3.js"></script>
+<script src="../js/home.js"></script>
+</body>
+</html>

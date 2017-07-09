@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="../css/login.css"/>
+</head>
+<body>
+<div id="out">
+
+    <div id="inner">
+
+        <!--<p id="left"><img src="../dl/login_cn_files/banner.jpg" /></p>-->
+        <div id="right">
+            <div id="special">
+                <i>港澳台手机用户请使用“手机动态密码登录”</i>
+                <span>&times;</span>
+                <p></p>
+            </div>
+            <br>
+            <lable><input type="radio" name="radio1" checked id="special0">普通登录</lable>
+            <lable><input type="radio" name="radio1" id="special2">手机动态密码登录</lable><br><br>
+
+            <form action="#" method="post"id="loginForm">
+                <input type="text" id="input1" placeholder="用户名/卡号/手机号/邮箱"/><br><br>
+                <input type="password" id="input2" placeholder="密码"/><br><br>
+                <span>&nbsp;两个月类免登录&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">忘记密码</a></span><br><br>
+                <input type="button" id="submit" value="登录"><br><br>
+            </form>
+            <span><a href="#">使用其他账号登录</a></span>
+        </div>
+    </div>
+    <p id="register"><a href="register.html">立即注册</a></p>
+    <div id="bottom">
+        <p><span>iPhonne/iPad</span>&nbsp;&nbsp;&nbsp;
+            <span>Android</span>&nbsp;&nbsp;&nbsp;<span>Windows</span>&nbsp;&nbsp;&nbsp;
+            <span>其他手机端</span>
+        </p>
+        <p>
+            <a href="#">酒店加盟</a><span>|</span>
+            <a href="#">加盟合作</a><span>|</span>
+            <a href="#">代理合作</a><span>|</span>
+            <a href="#">广告服务</a><span>|</span>
+            <a href="#">联系我们</a><span>|</span>&nbsp;&nbsp;&nbsp;
+            <span>&copy;1999-2014 eLong,Inc or its affiliates.All Rights Resertved.</span>
+        </p>
+    </div>
+</div>
+<script src="../js/jquery-1.11.3.js"></script>
+<script src="../js/login.js"></script>
+<script>
+    var $btn=$("#loginForm>#submit");
+    var data=$("#loginForm").serialize();
+    $.ajax({
+        type:"GET",
+        url:"/html/login.html",
+        data:data,
+        success:function(result){
+            if(result.code===200){
+                alert("登录成功！")
+            }else{
+                alert("登录失败...错误原因："+result.msg)
+            }
+        }
+    })
+</script>
+</body>
+</html>

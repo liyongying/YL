@@ -1,0 +1,89 @@
+//轮播图
+var index=1;
+function task(){
+    index++;
+    (index>5)&&(index=1);
+    var path="../images/hometurn00"+index+".jpg";
+    $("#section>#in_turn>img").attr("src",path);
+    $("#section>#in_turn>ul>li").removeClass("turnActive");
+    $("#in_turn>ul>li:eq("+(index-1)+")").addClass("turnActive");
+}
+var timer=setInterval(task,2500);
+
+var $li=$("#section>#in_turn>ul>li");
+$li.click(function(){
+    clearInterval(timer);
+    timer=null;
+    $("#section>#in_turn>ul>li").removeClass("turnActive");
+    $(this).addClass("turnActive");
+    index=$(this).html();
+    var path="../images/hometurn00"+index+".jpg";
+    $("#section>#in_turn>img").attr("src",path);
+});
+$(function(){
+    $("#section>#in_turn>img").mouseover(function(){
+        clearInterval(timer);
+        timer=null;
+    });
+    $("#section>#in_turn>img").mouseout(function(){
+        timer=setInterval(task,2500);
+    });
+});
+
+//阻止a的默认行为
+$("a").click(function(e){
+    e.preventDefault();
+})
+
+//放大镜
+//（1选择图片）
+//var moveStep = 130;
+//var preCount = 5;
+//$('#enjoy>h1>ul>li').each(function(idx,item){
+//    var first = -moveStep*preCount;
+//    $(item).css('left', first+moveStep*idx);
+//});
+var $img=$("#enjoy>h1>ul>li>img");
+var $aprev=$("#enjoy>h1>#aprev"),$anext=$("#enjoy>h1>#anext");
+var moved=0;
+var $ulist=$("#enjoy>h1>ul");
+var liwidth=120;
+var count=$ulist.children.length;
+$aprev.click(function(){
+    if($(this).hasClass("pnactive")){
+        moved++;
+        $ulist.css("left",((-moved*120+20)+'px'));
+        if(count-moved==3){
+            $(this).removeClass("pnactive");
+        }
+    }
+
+});
+$anext.click(function(){
+    if($(this).hasClass("pnactive")){
+        moved++;
+        $ulist.css("left",((moved*120+20)+'px'));
+        if(count-moved==3){
+            $(this).removeClass("pnactive");
+        }
+    }
+
+
+});
+$ulist.on("click","img",function(){
+    var src=$(this).attr("src");
+    //var src=$("#enjoy>h1>ul>li>img").attr("src");
+    var i=src.indexOf("-");
+    var msrc=src.slice(0,i+1)+"m"+src.slice(i+2);
+    var $mimg=$("#enjoy>#mirrorbigger>img");
+    $mimg.attr("src",msrc);
+});
+
+//turnRight处js
+
+$("#turnRight #list1").on("click","li",function(e){
+    e.preventDefault();
+    var divId=$(this).find("a").attr("href");
+    console.log(divId);
+    $(divId).addClass("active").siblings(".active").removeClass("active");
+})
