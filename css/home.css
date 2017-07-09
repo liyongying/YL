@@ -117,8 +117,11 @@ a,span{
     /*padding: 0 10px;*/
 }
 #dz{
-    margin-left: 351px;
     background:#003679;
+    position:absolute;
+    top:0;
+    right:0;
+    height:50px;
 }
 #dz>a{
     font-size: 20px;

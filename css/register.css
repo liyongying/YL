@@ -1,5 +1,7 @@
-ul{
-    list-style:none;
+*{
+    margin:0;
+    padding:0;
+    list-style: none;
 }
 a{
     text-decoration: none;
@@ -7,20 +9,31 @@ a{
 .right{
     width:50px;padding-right:0 ;
 }
-#out{
-    min-width: 1000px;min-height: 600px;
-    background-color: #E8EFF6;
-    padding-left:200px;
-    padding-top:100px;
-
+body{
+    background: #e8eff6;
+    padding-top:25px;
 }
 #inner{
-
+ width:940px;
+ padding:36px 30px;
+ margin: 0 auto;
+ border:1px solid #ccc;
+ background: #fff;
 }
 #details{
     background-color: #FFFFFF;
     padding-left: 20px;
     width:68%;
+}
+.logo{
+    margin-bottom:25px;
+}
+#p01{
+    margin-bottom:15px;
+}
+#p01 h2{
+    display: inline-block;
+    margin-right: 70px;
 }
 #details span{
     color:red;
@@ -34,7 +47,7 @@ a{
 #details ul li p{
     width:120px;
     text-align: right;
-    line-height: 2px;
+    padding-right: 4px;
 }
 #submit{
     width:200px;
